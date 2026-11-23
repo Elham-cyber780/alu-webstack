@@ -27,4 +27,4 @@ frontend www-https
 backend www-backend
     balance roundrobin
     server 7388-web-01 13.40.54.207:80 check
-    server 7388-web-02 WEB02_IP:80 check
+    server 7388-web-02 18.171.61.242:80 check
